@@ -108,7 +108,7 @@ nav ul li a:hover {
 .about-me {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/background-about.jpg);
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.1)), url(./img/background-about.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -251,7 +251,7 @@ p {
 .Skills {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/skills.jpg);
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.5)), url(./img/skills.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -346,13 +346,16 @@ p {
 /* contact me styling  */
 
 .contact-me {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/contact.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:local;
     background-repeat: no-repeat;
+    margin: auto;
+    
+    
 }
 
 .contact .row{
@@ -360,12 +363,13 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .contact .row .content{
     flex:1 1 30rem;
-    padding:4rem;
-    padding-bottom: 0;
+    padding:1rem;
+    
 }
 
 .contact .row form{
@@ -411,8 +415,8 @@ p {
 }
 
 .contact .row .content .info h3 i{
-    padding-right: 1rem;
-    color:var(--yellow);
+    padding-right: 2rem;
+    
 }
 
 .top{
@@ -421,3 +425,6 @@ p {
     z-index: 100;
     display: none;
 }
+
+
+.
