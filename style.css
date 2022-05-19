@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin Sans', sans-serif;
+}
+
+.personal {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 29px;
+}
+
+span {
+    color: #ea1538;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 22px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    transition: .45s;
+    color: #ea1538;
+}
+
+/* Home section  */
+
+.home {
+    color: #fff;
+    min-height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 49px;
+    padding: 15px;
+
+}
+
+.home .home-content .text-2 {
+    font-size: 120px;
+    font-weight: 600;
+    margin-left: -3px;
+    padding: 15px;
+
+}
+
+.home .home-content .text-3 {
+    font-size: 60px;
+    margin: 20px 0;
+
+}
+
+.home .home-content .text-3 span {
+    color: #ea1538;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/* about section  */
+
+.about-me {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/background-about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title {
+    font-family: 'Ubuntu' sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: ;
+}
+
+.about .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+
+.about .title::after {
+    content: "Who i am";
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    font-size: 20px;
+    color: #ea1538;
+    padding: 5px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.about .about-content .left img {
+    height: 480px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 29px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    line-height: 18px;
+    font-weight: 500;
+    justify-content: space-between;
+    line-height: 30px
+}
+
+.btn {
+    background: #ea1538;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: .3s;
+    c
+}
+
+.btn:hover {
+    background: transparent;
+    border: 2px solid #ea1538;
+    color: white;
+    transform: translateY(-7px);
+    cursor: pointer;
+
+}
+
+.links {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links h6 {
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+
+}
+
+.links .social a {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.links .social a:hover {
+    transform: translateY(10px);
+}
+
+
+
+
+
+
+
+/* My Skills CSS */
+
+
+.Skills {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/skills.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.skills {
+    /* background: #f0f8ff; */
+}
+
+.skills .content1 {
+    padding: 40px 0;
+}
+
+.skills .skills-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-details .text {
+    width: 50%;
+}
+
+.skills-details p {
+    
+    text-align: justify;
+}
+
+.skills .skills-details .experience {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.skills-details .experience .num {
+    color: #d88e9b;
+    font-size: 80px;
+}
+
+.skills-details .experience .exp {
+    color: #d88e9b;
+    color: ;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.skills-details .boxes {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-details .box {
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+}
+
+.skills-details .boxes .topic {
+    font-size: 20px;
+    
+   
+}
+
+.skills-details .boxes .per {
+    font-size: 60px;
+    color: #d88e9b;
+}
+
+.topic {
+    color: #d88e9b;
+    font-size: 5vh;
+    padding: 30px;
+}
+
+.title1 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+
+
+
+
+
+/* contact me styling  */
+
+.contact-me {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0.0, 0, .6), rgba(0, 0, 0, 0.6)), url(./img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:100%;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
